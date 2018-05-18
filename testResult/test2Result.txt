@@ -1,0 +1,450 @@
+-------------File Read----------------
+ABCDEFGH
+BE -> GH
+G -> AF
+D -> C
+F -> B
+
+--------------------------------------
+-------------- Non-trivial Functional Dependencies------------------------
+D -> C
+F -> B
+G -> ABF
+AD -> C
+BD -> C
+AF -> B
+BE -> AFGH
+AG -> BF
+CF -> B
+DE -> C
+BG -> AF
+CG -> ABF
+DF -> BC
+DG -> ABCF
+EF -> ABGH
+DH -> C
+EG -> ABFH
+FG -> AB
+FH -> B
+GH -> ABF
+ABD -> C
+ABE -> FGH
+ACF -> B
+ADE -> C
+ABG -> F
+BCE -> AFGH
+ACG -> BF
+ADF -> BC
+BDE -> ACFGH
+ADG -> BCF
+AEF -> BGH
+BCG -> AF
+BDF -> C
+ADH -> C
+AEG -> BFH
+BDG -> ACF
+BEF -> AGH
+CDF -> B
+AFG -> B
+BDH -> C
+BEG -> AFH
+CDG -> ABF
+CEF -> ABGH
+AFH -> B
+BEH -> AFG
+BFG -> A
+CEG -> ABFH
+DEF -> ABCGH
+AGH -> BF
+CFG -> AB
+DEG -> ABCFH
+BGH -> AF
+CFH -> B
+DEH -> C
+DFG -> ABC
+CGH -> ABF
+DFH -> BC
+EFG -> ABH
+DGH -> ABCF
+EFH -> ABG
+EGH -> ABF
+FGH -> AB
+ABCE -> FGH
+ABDE -> CFGH
+ABCG -> F
+ABDF -> C
+BCDE -> AFGH
+ABDG -> CF
+ABEF -> GH
+ACDF -> B
+ABDH -> C
+ABEG -> FH
+ACDG -> BF
+ACEF -> BGH
+BCDG -> AF
+BCEF -> AGH
+ABEH -> FG
+ACEG -> BFH
+ADEF -> BCGH
+BCEG -> AFH
+BDEF -> ACGH
+ACFG -> B
+ADEG -> BCFH
+CDEF -> ABGH
+BCEH -> AFG
+BCFG -> A
+BDEG -> ACFH
+ABGH -> F
+ACFH -> B
+ADEH -> C
+ADFG -> BC
+CDEG -> ABFH
+BDEH -> ACFG
+BDFG -> AC
+ACGH -> BF
+ADFH -> BC
+AEFG -> BH
+BDFH -> C
+CDFG -> AB
+BCGH -> AF
+BEFG -> AH
+ADGH -> BCF
+AEFH -> BG
+CDFH -> B
+CEFG -> ABH
+BDGH -> ACF
+BEFH -> AG
+AEGH -> BF
+CDGH -> ABF
+CEFH -> ABG
+DEFG -> ABCH
+BEGH -> AF
+AFGH -> B
+CEGH -> ABF
+DEFH -> ABCG
+BFGH -> A
+CFGH -> AB
+DEGH -> ABCF
+DFGH -> ABC
+EFGH -> AB
+ABCDE -> FGH
+ABCDG -> F
+ABCEF -> GH
+ABCEG -> FH
+ABDEF -> CGH
+ACDEF -> BGH
+ABCEH -> FG
+ABDEG -> CFH
+ACDEG -> BFH
+ABDEH -> CFG
+ABDFG -> C
+BCDEF -> AGH
+ACDFG -> B
+ABCGH -> F
+ABDFH -> C
+ABEFG -> H
+BCDEG -> AFH
+ACDFH -> B
+ACEFG -> BH
+ABDGH -> CF
+ABEFH -> G
+BCDEH -> AFG
+BCDFG -> A
+ACDGH -> BF
+ACEFH -> BG
+ADEFG -> BCH
+ABEGH -> F
+BCEFG -> AH
+ACEGH -> BF
+ADEFH -> BCG
+BCDGH -> AF
+BCEFH -> AG
+BDEFG -> ACH
+ACFGH -> B
+ADEGH -> BCF
+BCEGH -> AF
+BDEFH -> ACG
+CDEFG -> ABH
+ADFGH -> BC
+BCFGH -> A
+BDEGH -> ACF
+CDEFH -> ABG
+AEFGH -> B
+BDFGH -> AC
+CDEGH -> ABF
+BEFGH -> A
+CDFGH -> AB
+CEFGH -> AB
+DEFGH -> ABC
+ABCDEF -> GH
+ABCDEG -> FH
+ABCDEH -> FG
+ABCEFG -> H
+ABCDGH -> F
+ABCEFH -> G
+ABDEFG -> CH
+ABCEGH -> F
+ABDEFH -> CG
+ACDEFG -> BH
+ABDEGH -> CF
+ACDEFH -> BG
+BCDEFG -> AH
+ABDFGH -> C
+ACDEGH -> BF
+BCDEFH -> AG
+ACDFGH -> B
+BCDEGH -> AF
+ACEFGH -> B
+BCDFGH -> A
+ADEFGH -> BC
+BCEFGH -> A
+BDEFGH -> AC
+CDEFGH -> AB
+ABCDEFG -> H
+ABCDEFH -> G
+ABCDEGH -> F
+ABDEFGH -> C
+ACDEFGH -> B
+BCDEFGH -> A
+
+--------------------------------------------------------------------------
+superkey: BDE -> ACFGH
+superkey: DEF -> ABCGH
+superkey: DEG -> ABCFH
+superkey: ABDE -> CFGH
+superkey: BCDE -> AFGH
+superkey: ADEF -> BCGH
+superkey: BDEF -> ACGH
+superkey: ADEG -> BCFH
+superkey: CDEF -> ABGH
+superkey: BDEG -> ACFH
+superkey: CDEG -> ABFH
+superkey: BDEH -> ACFG
+superkey: DEFG -> ABCH
+superkey: DEFH -> ABCG
+superkey: DEGH -> ABCF
+superkey: ABCDE -> FGH
+superkey: ABDEF -> CGH
+superkey: ACDEF -> BGH
+superkey: ABDEG -> CFH
+superkey: ACDEG -> BFH
+superkey: ABDEH -> CFG
+superkey: BCDEF -> AGH
+superkey: BCDEG -> AFH
+superkey: BCDEH -> AFG
+superkey: ADEFG -> BCH
+superkey: ADEFH -> BCG
+superkey: BDEFG -> ACH
+superkey: ADEGH -> BCF
+superkey: BDEFH -> ACG
+superkey: CDEFG -> ABH
+superkey: BDEGH -> ACF
+superkey: CDEFH -> ABG
+superkey: CDEGH -> ABF
+superkey: DEFGH -> ABC
+superkey: ABCDEF -> GH
+superkey: ABCDEG -> FH
+superkey: ABCDEH -> FG
+superkey: ABDEFG -> CH
+superkey: ABDEFH -> CG
+superkey: ACDEFG -> BH
+superkey: ABDEGH -> CF
+superkey: ACDEFH -> BG
+superkey: BCDEFG -> AH
+superkey: ACDEGH -> BF
+superkey: BCDEFH -> AG
+superkey: BCDEGH -> AF
+superkey: ADEFGH -> BC
+superkey: BDEFGH -> AC
+superkey: CDEFGH -> AB
+superkey: ABCDEFG -> H
+superkey: ABCDEFH -> G
+superkey: ABCDEGH -> F
+superkey: ABDEFGH -> C
+superkey: ACDEFGH -> B
+superkey: BCDEFGH -> A
+Key: BDE -> ACFGH
+Key: DEF -> ABCGH
+Key: DEG -> ABCFH
+BCNF violation: D -> C
+BCNF violation: F -> B
+BCNF violation: G -> ABF
+BCNF violation: AD -> C
+BCNF violation: BD -> C
+BCNF violation: AF -> B
+BCNF violation: BE -> AFGH
+BCNF violation: AG -> BF
+BCNF violation: CF -> B
+BCNF violation: DE -> C
+BCNF violation: BG -> AF
+BCNF violation: CG -> ABF
+BCNF violation: DF -> BC
+BCNF violation: DG -> ABCF
+BCNF violation: EF -> ABGH
+BCNF violation: DH -> C
+BCNF violation: EG -> ABFH
+BCNF violation: FG -> AB
+BCNF violation: FH -> B
+BCNF violation: GH -> ABF
+BCNF violation: ABD -> C
+BCNF violation: ABE -> FGH
+BCNF violation: ACF -> B
+BCNF violation: ADE -> C
+BCNF violation: ABG -> F
+BCNF violation: BCE -> AFGH
+BCNF violation: ACG -> BF
+BCNF violation: ADF -> BC
+BCNF violation: ADG -> BCF
+BCNF violation: AEF -> BGH
+BCNF violation: BCG -> AF
+BCNF violation: BDF -> C
+BCNF violation: ADH -> C
+BCNF violation: AEG -> BFH
+BCNF violation: BDG -> ACF
+BCNF violation: BEF -> AGH
+BCNF violation: CDF -> B
+BCNF violation: AFG -> B
+BCNF violation: BDH -> C
+BCNF violation: BEG -> AFH
+BCNF violation: CDG -> ABF
+BCNF violation: CEF -> ABGH
+BCNF violation: AFH -> B
+BCNF violation: BEH -> AFG
+BCNF violation: BFG -> A
+BCNF violation: CEG -> ABFH
+BCNF violation: AGH -> BF
+BCNF violation: CFG -> AB
+BCNF violation: BGH -> AF
+BCNF violation: CFH -> B
+BCNF violation: DEH -> C
+BCNF violation: DFG -> ABC
+BCNF violation: CGH -> ABF
+BCNF violation: DFH -> BC
+BCNF violation: EFG -> ABH
+BCNF violation: DGH -> ABCF
+BCNF violation: EFH -> ABG
+BCNF violation: EGH -> ABF
+BCNF violation: FGH -> AB
+BCNF violation: ABCE -> FGH
+BCNF violation: ABCG -> F
+BCNF violation: ABDF -> C
+BCNF violation: ABDG -> CF
+BCNF violation: ABEF -> GH
+BCNF violation: ACDF -> B
+BCNF violation: ABDH -> C
+BCNF violation: ABEG -> FH
+BCNF violation: ACDG -> BF
+BCNF violation: ACEF -> BGH
+BCNF violation: BCDG -> AF
+BCNF violation: BCEF -> AGH
+BCNF violation: ABEH -> FG
+BCNF violation: ACEG -> BFH
+BCNF violation: BCEG -> AFH
+BCNF violation: ACFG -> B
+BCNF violation: BCEH -> AFG
+BCNF violation: BCFG -> A
+BCNF violation: ABGH -> F
+BCNF violation: ACFH -> B
+BCNF violation: ADEH -> C
+BCNF violation: ADFG -> BC
+BCNF violation: BDFG -> AC
+BCNF violation: ACGH -> BF
+BCNF violation: ADFH -> BC
+BCNF violation: AEFG -> BH
+BCNF violation: BDFH -> C
+BCNF violation: CDFG -> AB
+BCNF violation: BCGH -> AF
+BCNF violation: BEFG -> AH
+BCNF violation: ADGH -> BCF
+BCNF violation: AEFH -> BG
+BCNF violation: CDFH -> B
+BCNF violation: CEFG -> ABH
+BCNF violation: BDGH -> ACF
+BCNF violation: BEFH -> AG
+BCNF violation: AEGH -> BF
+BCNF violation: CDGH -> ABF
+BCNF violation: CEFH -> ABG
+BCNF violation: BEGH -> AF
+BCNF violation: AFGH -> B
+BCNF violation: CEGH -> ABF
+BCNF violation: BFGH -> A
+BCNF violation: CFGH -> AB
+BCNF violation: DFGH -> ABC
+BCNF violation: EFGH -> AB
+BCNF violation: ABCDG -> F
+BCNF violation: ABCEF -> GH
+BCNF violation: ABCEG -> FH
+BCNF violation: ABCEH -> FG
+BCNF violation: ABDFG -> C
+BCNF violation: ACDFG -> B
+BCNF violation: ABCGH -> F
+BCNF violation: ABDFH -> C
+BCNF violation: ABEFG -> H
+BCNF violation: ACDFH -> B
+BCNF violation: ACEFG -> BH
+BCNF violation: ABDGH -> CF
+BCNF violation: ABEFH -> G
+BCNF violation: BCDFG -> A
+BCNF violation: ACDGH -> BF
+BCNF violation: ACEFH -> BG
+BCNF violation: ABEGH -> F
+BCNF violation: BCEFG -> AH
+BCNF violation: ACEGH -> BF
+BCNF violation: BCDGH -> AF
+BCNF violation: BCEFH -> AG
+BCNF violation: ACFGH -> B
+BCNF violation: BCEGH -> AF
+BCNF violation: ADFGH -> BC
+BCNF violation: BCFGH -> A
+BCNF violation: AEFGH -> B
+BCNF violation: BDFGH -> AC
+BCNF violation: BEFGH -> A
+BCNF violation: CDFGH -> AB
+BCNF violation: CEFGH -> AB
+BCNF violation: ABCEFG -> H
+BCNF violation: ABCDGH -> F
+BCNF violation: ABCEFH -> G
+BCNF violation: ABCEGH -> F
+BCNF violation: ABDFGH -> C
+BCNF violation: ACDFGH -> B
+BCNF violation: ACEFGH -> B
+BCNF violation: BCDFGH -> A
+BCNF violation: BCEFGH -> A
+--------------------------
+R=ABCDEFGH
+D->C
+--------------------------
+[CD, ABDEFGH]
+--------------------------
+R=ABDEFGH
+F->B
+--------------------------
+[CD, BF, ADEFGH]
+--------------------------
+R=ADEFGH
+G->AF
+--------------------------
+[CD, BF, AFG, DEGH]
+--------------------------
+R=DEGH
+EG->H
+--------------------------
+[CD, BF, AFG, EGH, DEG]
+DEG
+--- inserted --- (DEG)
+EGH
+--- inserted --- (EGH)
+AFG
+--- inserted --- (AFG)
+BF
+--- inserted --- (BF)
+CD
+--- inserted --- (CD)
+------------- Tables in BCNF ----------------
+DEG
+EGH
+AFG
+BF
+CD
+
+---------------------------------------------

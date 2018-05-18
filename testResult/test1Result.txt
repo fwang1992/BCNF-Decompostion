@@ -1,0 +1,81 @@
+-------------File Read----------------
+ABCDE
+AB -> C
+C -> D
+D -> BE
+
+--------------------------------------
+-------------- Non-trivial Functional Dependencies------------------------
+AB -> CDE
+C -> BDE
+AC -> BDE
+D -> BE
+AD -> BCE
+BC -> DE
+ABC -> DE
+BD -> E
+ABD -> CE
+CD -> BE
+ABE -> CD
+ACD -> BE
+CE -> BD
+ACE -> BD
+BCD -> E
+DE -> B
+ABCD -> E
+ADE -> BC
+BCE -> D
+ABCE -> D
+ABDE -> C
+CDE -> B
+ACDE -> B
+
+--------------------------------------------------------------------------
+superkey: AB -> CDE
+superkey: AC -> BDE
+superkey: AD -> BCE
+superkey: ABC -> DE
+superkey: ABD -> CE
+superkey: ABE -> CD
+superkey: ACD -> BE
+superkey: ACE -> BD
+superkey: ABCD -> E
+superkey: ADE -> BC
+superkey: ABCE -> D
+superkey: ABDE -> C
+superkey: ACDE -> B
+Key: AB -> CDE
+Key: AC -> BDE
+Key: AD -> BCE
+BCNF violation: C -> BDE
+BCNF violation: D -> BE
+BCNF violation: BC -> DE
+BCNF violation: BD -> E
+BCNF violation: CD -> BE
+BCNF violation: CE -> BD
+BCNF violation: BCD -> E
+BCNF violation: DE -> B
+BCNF violation: BCE -> D
+BCNF violation: CDE -> B
+--------------------------
+R=ABCDE
+C->BDE
+--------------------------
+[BCDE, AC]
+AC
+--- inserted --- (AC)
+--------------------------
+R=BCDE
+D->BE
+--------------------------
+[BDE, CD]
+CD
+--- inserted --- (CD)
+BDE
+--- inserted --- (BDE)
+------------- Tables in BCNF ----------------
+AC
+CD
+BDE
+
+---------------------------------------------
